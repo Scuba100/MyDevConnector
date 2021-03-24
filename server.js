@@ -20,5 +20,3 @@ app.use('/api/posts', require('./routes/api/posts'));
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log('Server started on PORT ${PORT}'));
-
-// Why does the connection trow an error to connect 03/23/21
