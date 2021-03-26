@@ -10,9 +10,7 @@ const User = require('../../models/User');
 const { JsonWebTokenError } = require('jsonwebtoken');
 
 // @route   POST api/users
-
 // @desc    Register user
-
 // @access  Public
 
 router.post('/',[
